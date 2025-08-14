@@ -45,7 +45,7 @@ terraform -chdir=./envs/production plan -var='region=<REGION>' -var='allowed_ssh
 
 # Apply terraform if everything is according to Plan
 terraform -chdir=./envs/production apply -var='region=<REGION>' -var='allowed_ssh_cidr=["IP_ADDRESS_OR_RANGE_CIDR"]'
-
+```
 ## Expected Output
 
 | Variable       | Expected stdout |
