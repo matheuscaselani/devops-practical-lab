@@ -1,0 +1,6 @@
+# Ignore Modules loaded during terraform init
+**/.terraform/*
+
+# Always save up state file and lock
+!.terraform.lock.hcl
+!terraform.tfstate
