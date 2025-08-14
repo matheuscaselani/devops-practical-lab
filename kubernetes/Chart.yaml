@@ -1,0 +1,15 @@
+---
+apiVersion: v2
+name: idwall-test
+description: Basic web application using node
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+
+home: https://127.0.0.1/
+sources:
+  - https://github.com/matheuscaselani/devops-practical-lab
+keywords: [web, api, node]
+maintainers:
+  - name: Matheus Caselani
+    email: matheuscaselani@gmail.com
