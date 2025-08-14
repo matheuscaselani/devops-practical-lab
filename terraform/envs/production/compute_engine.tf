@@ -24,7 +24,7 @@ module "instance_template" {
   auto_delete          = "true"
   source_image_project = "debian-cloud"
   source_image         = "debian-12"
-  startup_script       = file("${path.module}/src/startup.sh")
+  startup_script       = file("../src/startup.sh")
 }
 
 module "compute_instance" {
